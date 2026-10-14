@@ -1,0 +1,167 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+  color: #1f2937;
+}
+
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 32px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px #00000012;
+}
+
+.auth-card h1 {
+  margin-top: 0;
+}
+
+.auth-card label {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+.auth-card button {
+  width: 100%;
+  margin-top: 22px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.auth-card button:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.error {
+  color: #dc2626;
+  overflow-wrap: anywhere;
+}
+
+.dashboard {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.dashboard-header h1 {
+  margin-bottom: 8px;
+}
+
+.dashboard-header p {
+  color: #64748b;
+}
+
+.dashboard button,
+.ticket-form-card button,
+.tickets-section > button {
+  padding: 11px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.ticket-form-card,
+.ticket-card {
+  padding: 22px;
+  margin-bottom: 20px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+
+.ticket-form-card label {
+  display: block;
+  margin: 14px 0 6px;
+}
+
+.ticket-form-card input,
+.ticket-form-card textarea,
+.ticket-form-card select {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.ticket-form-card button {
+  margin-top: 18px;
+}
+
+.ticket-card h3 {
+  margin-top: 0;
+}
+
+.ticket-card p {
+  overflow-wrap: anywhere;
+}
+
+.tickets-section {
+  margin-top: 30px;
+}
+
+.chat-messages {
+  min-height: 250px;
+  max-height: 450px;
+  overflow-y: auto;
+  margin: 20px 0;
+  padding: 15px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.chat-message {
+  margin-bottom: 12px;
+  padding: 12px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.chat-message p {
+  white-space: pre-wrap;
+}
+
+.chat-message small {
+  color: #64748b;
+}
